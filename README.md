@@ -1,34 +1,31 @@
-# initialize project 
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. cd Server</p>
+
+<p>2. Install dependencies for Server</p>
+
 ```
-npm init -y
+npm install
 ```
 
-# initialize typescript
+<p>3. Start Server</p>
+
 ```
-npx tsc --init
+npm run dev
 ```
 
-# install prisma
+<p>4. Open Separate terminal for Client</p>
+
+<p>5. cd Client</p>
+
+<p>6. Install dependencies for Client</p>
+
 ```
-npm i prisma 
+npm install
 ```
 
-# initialize prisma
-```
-npx prisma init
-```
+<p>7. Run Client</p>
 
-# generate prisma client
 ```
-npx prisma generate
-```
-
-# migrate table changes
-```
-npx prisma migrate dev --name init
-```
-
-# view tables and data
-```
-npx prisma studio
+npm run dev
 ```
